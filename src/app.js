@@ -11,7 +11,7 @@ app.use(express.json());
 // Documentação
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-// Rota Principal (Redireciona para o Swagger para não dar erro aos alunos)
+// Rota Principal
 app.get('/', (req, res) => {
     res.redirect('/api-docs');
 });

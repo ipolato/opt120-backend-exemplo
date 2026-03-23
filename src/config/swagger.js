@@ -6,7 +6,7 @@ const swaggerOptions = {
     info: {
       title: 'API de Usuários',
       version: '1.0.0',
-      description: 'Documentação da nossa API de usuários',
+      description: 'Documentação Exemplo Backend',
     },
     servers: [
       {
